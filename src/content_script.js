@@ -1,0 +1,7 @@
+var images = document.getElementsByTagName("img")
+var len = images.length
+for(var i = 0; i < len; i++) {
+  if (images[i].src == "http://status.aws.amazon.com/images/status1.gif") {
+    images[i].src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAUCAYAAABmvqYOAAADHElEQVR42pWU70tTYRTH/Td624veaTRNkL0oiKkD9YX4onKZpXdqP1BIMIS0HxCWOSeJmUYJGSSIaJZmTsyScnOSORKLzAx/tSl74eZ+3Xu/PefZ7s3pHPrA4flxz/l8zznPsyUkxBmuvxv4PmTAYNPhmEbfyCfhIIMCZj/c5YBbxkOou3YGrzsEBGeK+Ex7nU7HZ/Ih333DyZkCB/pe8MysVitaW5pUo73f7+ffFeF9CZATZUuBzrV1OFddTMClCtBMgoopArNdR+ILkDOVSSWPj4/zwJbmRqyuuHmmba3N8Hq9TGACfd0d/IyM/KllFLvnHVB55KDVavHyeStsNgdGhnqwubnJ1p/wsOkBxsbGGNyOqakp+Hw+tSKC0wWTxYRTO6i8/qfFMN+4GtXz9seNeNPbifa2Vrb/go11twomP4Ir2ceFz7018AAKbL51ic+WwQ4e/HF0AH293fy8yVyPwVedKnhfcCpNcd6YNiPoYGtHMZ99M1cQmAk/S8/X6wh+KzoYnMwzcYxfVGZmOrKyMpCdnYG8PD1yczNRVpYDr+MEhzXcS0RguhDVlWl4Uq/ZG15mNOB2dSLmepK5AMHnDfmYL2BWmI+FUgMWq87jZk0KBCEFJpMJdruMyooLbAYfFZcLdsONRuMfMRTAyvJvdLXpkZ6u4/Cfp89GWW2RFr4f/ZDYExQEAXJwFJA+g8VzuGX4Ha0Xt4OX2LlEWYghH1aWFpCTc4r/ODjUeA7L9+/gV7GR78uFVMiBAJzOEZjNZkC28lkW/awCCRaLRWZMJ4Fd4YLsQXbInBpRVX5U7bden87XipGgSTjJMg7C7X5POTG4jc2TWF0VsbYGahHBtwi+FYZDJk9JEpnyMMy1SerFemzJ8Eweh8eeygUMhjQEGZw5c9h/kzk4knlIaUsociFRAqaapDBcNQ2eNWh46ZBDvNd7gOWdFyrtFJiclHYJPKrTcBDk6KxZrKS2I9bYKUDr0hKB/0sqVmK8yJ/fNiiZGAGLcf9ySTkSQC+AAgIxfETFh8CsFdKuVsQR8NG7jRcQ+U5+4l5+/wAXNPGoYZOvNgAAAABJRU5ErkJggg=="
+  }
+}

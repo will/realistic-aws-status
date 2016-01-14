@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Real AWS status",
+  "description": "This extension shows more reasonable aws status icons",
+  "version": "1.0",
+
+  "permissions": [
+    "http://status.aws.amazon.com/"
+  ],
+
+    "content_scripts":
+  [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content_script.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
